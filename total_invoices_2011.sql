@@ -1,4 +1,4 @@
--- How many Invoices were there in 2009?
+-- How many Invoices were there in 2011?
 
 SELECT COUNT(InvoiceId)
 FROM Invoice 
