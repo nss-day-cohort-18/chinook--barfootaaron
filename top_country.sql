@@ -4,4 +4,4 @@ SELECT BillingCountry 'Country', "$" || SUM([Total]) 'Total Sales'
 FROM Invoice
 GROUP BY BillingCountry
 ORDER BY SUM([Total]) desc
-limit 1;
+LIMIT 1;
